@@ -1,7 +1,9 @@
+import Card from "./components/Card";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
+    <div className="App bg-zinc-800 py-4">
+      <Card />
     </div>
   );
 }
